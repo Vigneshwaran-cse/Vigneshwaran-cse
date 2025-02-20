@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: 'Arial', sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background-color: #eaeaea;
+        }
+        header {
+            background-image: linear-gradient(to right, #4a90e2, #9013fe);
+            color: white;
+            padding: 2rem 1rem;
+            text-align: center;
+        }
+        nav {
+            background-color: #4a90e2; /* Matching the header/footer color */
+            text-align: center;
+            padding: 1rem 0; /* Adding some padding for better spacing */
+            margin-top: 1rem;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+            font-weight: bold;
+            transition: color 0.3s, transform 0.3s;
+            display: inline-block; /* Ensures padding affects the element */
+            padding: 0.5rem 1rem; /* Adds padding around the links */
+            border-radius: 5px; /* Rounds the corners of the links */
+        }
+        nav a:hover {
+            color: #ffcc00;
+            transform: scale(1.1);
+        }
+        section {
+            padding: 2rem;
+            max-width: 800px;
+            margin: 20px auto;
+            background-color: white;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        h1, h2, h3 {
+            color: #4a90e2;
+        }
+        footer {
+            text-align: center;
+            padding: 1rem;
+            background-color: #4a90e2;
+            color: white;
+            margin-top: 2rem;
+        }
+        .project {
+            border: 1px solid #ddd;
+            padding: 1rem;
+            margin-bottom: 1rem;
+            border-radius: 5px;
+            transition: box-shadow 0.3s, transform 0.3s;
+        }
+        .project:hover {
+            box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+            transform: translateY(-2px);
+        }
+        ul {
+            list-style-type: square; /* Changed bullet style */
+        }
+        a {
+            color: #4a90e2; /* Link color */
+        }
+        a:hover {
+            text-decoration: underline; /* Underline on hover */
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>My Portfolio</h1>
+        <p>Computer Science Engineering Student | First Year</p>
+    </header>
+    <nav>
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#education">Education</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <section id="about">
+        <h2>About Me</h2>
+        <p>Hello! I am a first-year CSE student passionate about coding, problem-solving, and creating small games. I’m also learning Python and Japanese!</p>
+    </section>
+
+    <section id="skills">
+        <h2>Skills</h2>
+        <ul>
+            <li>Python Programming</li>
+            <li>Problem Solving</li>
+            <li>Game Development (Learning)</li>
+            <li>Japanese Language (Beginner)</li>
+        </ul>
+    </section>
+
+    <section id="projects">
+        <h2>Projects</h2>
+        <div class="project">
+            <h3>Simple Python Calculator</h3>
+            <p>A basic calculator using Python.</p>
+        </div>
+        <div class="project">
+            <h3>First Game Project</h3>
+            <p>Developing a small mobile game as a learning project.</p>
+        </div>
+    </section>
+
+    <section id="education">
+        <h2>Education</h2>
+        <p>Bachelor of Engineering in Computer Science, First Semester</p>
+    </section>
+
+    <section id="contact">
+        <h2>Contact</h2>
+        <p>Email: vigneshwaran2006csc@gmail.com</p>
+        <p>GitHub: 
+           <a href="https://github.com/Vigneshwaran-cse" target="_blank">https://github.com/Vigneshwaran-cse</a></p>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 My Portfolio. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
